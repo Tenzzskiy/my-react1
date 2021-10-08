@@ -2,9 +2,11 @@
 
 }
 
-.message {
+.dialogs {
 display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    text-align: left;
 }
 
 .container {
@@ -14,4 +16,8 @@ display: flex;
 .Header__dialogs{
     text-align: left;
     font-size: 24px;
+}
+.dialogs img {
+    width: 50px;
+    height: 35px;
 }

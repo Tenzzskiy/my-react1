@@ -1,8 +1,9 @@
 import React from "react";
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
-import {BrowserRouter,Route} from "react-router-dom";
-const Navbar = () => {
+
+const Navbar = (props) => {
+
     return (
         <nav className={s.nav}>
             <div className={s.container}>
@@ -21,7 +22,9 @@ const Navbar = () => {
             <div className={s.item}>
                 <NavLink to="/Settings" className={s.none__link} activeClassName={s.active}>Settings</NavLink>
             </div>
+
         </div>
+
         </nav>
     );
 }
