@@ -1,0 +1,33 @@
+
+.nav{
+    background-color: yellowgreen;
+    grid-area: n;
+
+}
+.item{
+
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.none__link {
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy, sans-serif;
+
+
+}
+.item :hover{
+    color: gold;
+    transition-duration: .3s  ;
+}
+.active {
+    color:gold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}

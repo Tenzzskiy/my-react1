@@ -1,0 +1,17 @@
+.users {
+
+}
+
+.message {
+display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.Header__dialogs{
+    text-align: left;
+    font-size: 24px;
+}

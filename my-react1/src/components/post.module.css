@@ -1,0 +1,9 @@
+.item{
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.item img{
+    width: 80px;
+    border-radius: 30%;
+}
