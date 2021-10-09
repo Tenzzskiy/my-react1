@@ -21,3 +21,33 @@ display: flex;
     width: 50px;
     height: 35px;
 }
+.input{
+    width: 50%;
+    border: 0;
+    color: white;
+    background-color: #181C21;
+    outline: 0;
+    height: 50px;
+
+
+
+}
+.button{
+    height: 30px;
+    width: 400px;
+    border: 0;
+    color: gold;
+
+    background-color: #181C21;
+    outline: 0;
+    text-decoration: none;
+}
+.text__area__flex{
+    display: flex;
+    flex-direction: column;
+
+}
+.input__item{
+    text-align: left;
+
+}

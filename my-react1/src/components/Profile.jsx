@@ -12,7 +12,7 @@ const Profile = (props) => {
     return(
     <div>
         <div>
-            <Mypost posts={props.state.posts}/>
+            <Mypost posts={props.state.posts} addPosts={props.addPost}/>
         </div>
         ava
         <div className={s.item}>

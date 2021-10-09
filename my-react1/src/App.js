@@ -8,6 +8,7 @@ import {BrowserRouter,Route} from "react-router-dom";
 import Music from "./components/Music";
 import Settings from "./components/Settings";
 import News from "./components/News";
+import {addPost} from "./redux/state";
 
 
 const App = (props) => {
@@ -25,7 +26,7 @@ const App = (props) => {
                     />}/>
             <Route path='/Profile' render={ () =>
                 <Profile
-                    state={props.state.ProfilePge} />}/>
+                    state={props.state.ProfilePge} addPost={props.addPost}/>}/>
 
             <Route path='/News' render={ () =>  <News />}/>
             <Route path='/Music' render={ () =>  <Music />}/>

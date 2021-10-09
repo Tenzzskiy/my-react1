@@ -1,6 +1,6 @@
 import React from "react";
 import s from './post.module.css';
-
+import avatar from "./img/avatar.png"
 const Post = (props) => {
 
 
@@ -8,7 +8,7 @@ const Post = (props) => {
 
         <div className={s.item}>
             <img
-                src="https://st.depositphotos.com/1006076/3995/i/600/depositphotos_39951147-stock-photo-spring-landscape-watercolor-flowering-trees.jpg"
+                src={avatar}
                 alt=""/>
                 {props.p}
         </div>

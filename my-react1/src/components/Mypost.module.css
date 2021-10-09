@@ -1,3 +1,20 @@
 .posts{
     text-align: center;
 }
+.button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.align{
+    text-align: left;
+}
+.input{
+    width: 200px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    outline: 0;
+    border: 0;
+}

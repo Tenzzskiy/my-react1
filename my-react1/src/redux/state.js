@@ -1,3 +1,5 @@
+import {rerenderEntireTree} from "../render";
+
 let state = {
     ProfilePge:{
         posts: [
@@ -26,5 +28,12 @@ let state = {
         ]
     },
 
+}
+export let addPost = (postMessage) => {
+    let newPost= {
+        id:5,message: postMessage
+    };
+rerenderEntireTree(state);
+    state.ProfilePge.posts.push(newPost)
 }
 export default state;
